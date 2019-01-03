@@ -42,7 +42,7 @@ Errors in VSCode are shown in multiple places:
 
 > Tip: To loop through errors or warnings in the current file, you can press `F8` or `Shift+F8` which will show an inline zone detailing the problem and possible code actions (if available).
 
-![Tooltips](images/errors.gif)
+![Errors](images/errors.gif)
 
 ### CodeLens and LineLens
 
@@ -51,6 +51,15 @@ Ionide displays type signatures of the symbols either as information over the sy
 ### Quick Info panel
 
 You can check the type of symbol on which cursor currently is in the left part of VSCode Status Bar (bottom bar with different additional information about current position and file)
+
+### Generate record stubs
+
+You can generate record stubs by using the `Quick Fix` feature (Default keyboard shortcut is `Ctrl+.`). The feature is activated in two ways:
+
+* Using a type hint ```let p : Person = { }``` with the cursor over `Person`
+* Starting to type the fields of the record
+
+![Tooltips](images/generateRecordStubs.gif)
 
 ## Code navigation
 
