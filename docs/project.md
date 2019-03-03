@@ -1,7 +1,7 @@
-# Project managment
+# Project management
 
 General information
 
-## Project explorere
+## Project explorer
 
 ## MsBuild integration

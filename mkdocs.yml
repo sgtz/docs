@@ -25,7 +25,7 @@ pages:
 - User Guide:
   - 'General info': 'general.md'
   - 'Editing evolved': 'editing.md'
-  - 'Project managment': 'project.md'
+  - 'Project management': 'project.md'
   - 'Debugging': 'debugger.md'
   - 'Paket integration': 'paket.md'
   - 'FAKE integration': 'fake.md'
